@@ -30,18 +30,6 @@
           />
         </div>
       </div>
-      <img
-        loading="lazy"
-        src="/img/page-hero/dark/mountains.svg"
-        alt="A landscape image"
-        class="absolute -bottom-1px left-0 w-full h-12 md:h-24 object-fill dark:hidden text-blue-600 pointer-events-none z-0"
-      >
-      <img
-        loading="lazy"
-        src="/img/page-hero/dark/dark_mountains.svg"
-        alt="A landscape image"
-        class="absolute -bottom-1px left-0 w-full h-12 md:h-24 object-fill light:hidden text-blue-600 pointer-events-none z-0"
-      >
     </div>
 
     <!-- Body -->
@@ -62,23 +50,6 @@
           >
             <UnoIcon class="i-carbon-close" />
           </button>
-          <!-- Nuxt versions -->
-          <FilterButtons
-            title="Nuxt version"
-            subtitle="Show modules working with:"
-            :items="VERSIONS"
-            :selected-item="selectedVersion"
-            @toggle="toggleVersion"
-          >
-            <template #icon="{ icon }">
-              <component :is="icon" class="h-6 w-6 flex-none inline-block" />
-            </template>
-            <template #badge="{ key }">
-              <div v-if="key!=='2.x'" class="text-green-600 dark:text-green-400 border border-current bg-green-500/10 px-1.5 text-xs rounded-full">
-                Beta
-              </div>
-            </template>
-          </FilterButtons>
 
           <!-- Categories -->
           <FilterButtons

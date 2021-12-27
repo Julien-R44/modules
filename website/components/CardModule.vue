@@ -43,23 +43,6 @@
             class="i-carbon-badge text-yellow-600 text-lg ml-1 my-auto opacity-85"
           />
         </h2>
-        <div class="flex gap-2 py-3 w-full flex-wrap">
-          <div
-            v-for="{ tag, tagText, supportText, color, cssClass } of useModuleComptatibility(mod)"
-            :key="tag"
-            v-tooltip="{ content: tagText + ': ' + supportText, classes: tooltipClass }"
-            :style="{ color: color, background: color + '20' }"
-            :class="cssClass"
-            class="flex min-w-12 relative items-center gap-1 text-base rounded-lg px-2 py-1 z-50"
-          >
-            <iconNuxt3 v-if="tag === '3.x'" class="h-5 w-5" aria-hidden="true" />
-            <iconNuxt2 v-if="tag === '2.x'" class="h-5 w-5" aria-hidden="true" />
-            <iconNuxtBridge v-if="tag === '2.x-bridge'" class="h-5 w-5" aria-hidden="true" />
-            <div class="-mb-0.5">
-              {{ tag[0] }}
-            </div>
-          </div>
-        </div>
       </div>
     </div>
 

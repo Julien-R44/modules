@@ -1,8 +1,8 @@
 import { defineNuxtConfig } from '@nuxt/bridge'
 
-const title = 'Explore Nuxt Modules'
-const description = 'Discover our list of modules to supercharge your Nuxt project. Created by the Nuxt team and community.'
-const url = 'https://modules.nuxtjs.org'
+const title = 'Explore Adonis Modules'
+const description = 'Discover our list of modules to supercharge your Adonis project. Created by the Adonis community.'
+const url = 'https://adonis-modules.vercel.com'
 
 export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
@@ -62,13 +62,13 @@ export default defineNuxtConfig({
   },
   plugins: ['~/plugins/v-tooltip.ts'],
   manifest: {
-    name: 'Nuxt Modules',
-    short_name: 'Nuxt Modules',
-    description: 'Explore Nuxt Modules',
+    name: 'Adonis Modules',
+    short_name: 'Adonis Modules',
+    description: 'Explore Adonis Modules',
     theme_color: '#003c3c'
   },
   plausible: {
-    domain: 'modules.nuxtjs.org'
+    domain: 'https://adonis-modules.vercel.com'
   },
   colorMode: {
     preference: 'system',
