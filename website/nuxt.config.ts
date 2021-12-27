@@ -29,7 +29,7 @@ export default defineNuxtConfig({
       { hid: 'twitter:image:alt', name: 'twitter:image:alt', content: title }
     ],
     link: [
-      { hid: 'favicon', rel: 'icon', type: 'image/png', href: '/icon.png' },
+      { hid: 'favicon', rel: 'icon', type: 'image/png', href: '/favicon.png' },
       { hid: 'search', rel: 'search', type: 'application/opensearchdescription+xml', href: '/search.xml', title: 'Nuxt Modules' }
     ]
   },
