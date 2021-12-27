@@ -2,7 +2,7 @@ name: swagger
 description: Swagger provider for AdonisJS 5
 repo: reg2005/adonis5-swagger
 npm: adonis5-swagger
-icon: ''
+icon: swagger.png
 github: https://github.com/reg2005/adonis5-swagger
 website: https://github.com/reg2005/adonis5-swagger
 learn_more: ''

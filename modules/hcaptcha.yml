@@ -4,7 +4,7 @@ description: >-
   hCaptcha
 repo: NerdyLuffy/adonisjs-hcaptcha
 npm: adonisjs-hcaptcha
-icon: ''
+icon: hcaptcha.png
 github: https://github.com/NerdyLuffy/adonisjs-hcaptcha
 website: https://github.com/NerdyLuffy/adonisjs-hcaptcha
 learn_more: ''

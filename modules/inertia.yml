@@ -2,7 +2,7 @@ name: inertia
 description: InertiaJS provider for AdonisJS
 repo: eidellev/inertiajs-adonisjs
 npm: '@eidellev/inertia-adonisjs'
-icon: ''
+icon: inertia.png
 github: https://github.com/eidellev/inertiajs-adonisjs
 website: https://github.com/eidellev/inertiajs-adonisjs
 learn_more: ''

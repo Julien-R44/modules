@@ -2,7 +2,7 @@ name: cloudinary
 description: ''
 repo: liam-edwards/adonisjs-cloudinary
 npm: adonisjs-cloudinary
-icon: ''
+icon: cloudinary.png
 github: https://github.com/liam-edwards/adonisjs-cloudinary
 website: https://github.com/liam-edwards/adonisjs-cloudinary
 learn_more: ''

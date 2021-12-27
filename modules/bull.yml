@@ -1,7 +1,7 @@
 name: bull
 repo: Rocketseat/adonis-bull
 npm: '@rocketseat/adonis-bull'
-icon: ''
+icon: bull.png
 github: https://github.com/Rocketseat/adonis-bull
 website: https://github.com/Rocketseat/adonis-bull
 learn_more: ''

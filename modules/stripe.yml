@@ -2,7 +2,7 @@ name: stripe
 description: Stripe provider for AdonisJS
 repo: mezielabs/adonis-stripe
 npm: '@mezielabs/adonis-stripe'
-icon: ''
+icon: stripe.png
 github: https://github.com/mezielabs/adonis-stripe
 website: https://github.com/mezielabs/adonis-stripe
 learn_more: ''

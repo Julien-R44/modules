@@ -2,7 +2,7 @@ name: sentry
 description: Sentry provider for AdonisJS 5
 repo: reg2005/adonis5-sentry
 npm: adonis5-sentry
-icon: ''
+icon: sentry.png
 github: https://github.com/reg2005/adonis5-sentry
 website: https://github.com/reg2005/adonis5-sentry
 learn_more: ''
