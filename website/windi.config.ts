@@ -74,8 +74,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: 'DM Sans',
-        serif: 'DM Serif Display',
+        sans: 'Graphik',
+        serif: 'PolySans',
         mono: 'DM Mono'
       },
       transitionProperty: {
