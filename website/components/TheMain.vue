@@ -1,7 +1,7 @@
 <template>
   <div class="pb-16 relative bg-gray-100 dark:bg-secondary-black nuxt-text-default">
     <div
-      class="relative bg-white shadow dark:bg-secondary-darkest w-full sticky top-0 z-50 bg-opacity-80 backdrop-filter backdrop-blur-[12px] border-none"
+      class="relative bg-primary shadow w-full sticky top-0 z-50 backdrop-filter backdrop-blur-[12px] border-none"
     >
       <TheNav ref="searchEl" :search="q" @update:search="v=>q=v">
         <template #head>
@@ -116,9 +116,6 @@
         </div>
       </div>
     </div>
-
-    <!-- Footer -->
-    <TheFooter />
   </div>
 </template>
 
